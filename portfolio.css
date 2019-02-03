@@ -11,7 +11,7 @@
   
   nav {
     padding: 1% 0;
-    background-color: #aaa;
+    background-color: #5c3b6f;
   }
   
   nav {
@@ -23,15 +23,27 @@
   }
   
   header {
-    padding: 12% 0;
+    padding: 40px;
   }
   
-  section {
-    min-height: 200px;
-    padding: 6% 0;
-    background-color: #bbb;
+  .full-bio{
+    padding: 20px;
   }
-  
-  section:nth-child(even) {
-    background-color: #ddd;
+
+  .short-bio{
+    padding: 15px;
+  }
+
+  .project{
+    padding: 20px;
+  }
+
+  .project-desc{
+    padding: 15px;
+  }
+
+  .photo{
+    width: 100%;
+    padding: 15px;
+    display: inline-block;
   }
