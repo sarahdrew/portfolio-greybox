@@ -1,49 +1,37 @@
 * {
-    box-sizing: border-box;
-  }
-  
-  body { 
-    font-size: 20px;
-    color: black;
-    text-align: center;
-    line-height: 1.5;
-  }
-  
-  nav {
-    padding: 1% 0;
-    background-color: #5c3b6f;
-  }
-  
-  nav {
-    position: fixed;
-    top: 0;
-    left: 0;
-    right: 0;
-    z-index: 10;
-  }
-  
-  header {
-    padding: 40px;
-  }
-  
-  .full-bio{
-    padding: 20px;
-  }
+  box-sizing: border-box;
+}
 
-  .short-bio{
-    padding: 15px;
-  }
+body { 
+  font-size: 20px;
+  color: black;
+  text-align: center;
+  line-height: 1.5;
+}
 
-  .project{
-    padding: 20px;
-  }
+nav {
+  padding: 1% 0;
+  background-color: #aaa;
+}
 
-  .project-desc{
-    padding: 15px;
-  }
+nav {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 10;
+}
 
-  .photo{
-    width: 100%;
-    padding: 15px;
-    display: inline-block;
-  }
+header {
+  padding: 12% 0;
+}
+
+section {
+  min-height: 200px;
+  padding: 6% 0;
+  background-color: #bbb;
+}
+
+section:nth-child(even) {
+  background-color: #ddd;
+}
